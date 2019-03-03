@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "chartjs-plugin-zoom": "^0.6.6",
     "react": "^16.8.3",
+    "react-chartjs-2": "^2.7.4",
+    "react-detect-offline": "^2.1.2",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "react-sparklines": "^1.7.0",
+    "react-timeago": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",

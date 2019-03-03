@@ -1,13 +1,6 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,15 +12,73 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-header{
+  background: #4a4a4a;
+  border-radius: 1px;
+}
+
+.card-header-title{
+  height: 24px;
+  color: white !important;
+}
+
+.stocklist {
+  float:left;
+   width:38%;
+   padding: 1%;
+}
+.graph{
+ float:left;
+ width:56%;
+ padding: 1% 2%;
+}
+#stocks_list .card-content{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#stocks_list table{
+  width: 100%;
+  margin: 3px;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.selected{
+  background: #4dabf559;
+  box-shadow: 1px 1px 5px #1311117d inset;
+}
+
+tbody tr, button{
+  cursor: pointer;
+}
+tr td {
+  padding: 10px;
+}
+td.update_time{
+  font-size: 12px;
+}
+
+.icon.market-trend{
+  background: #e2e2e2;
+  border-radius: 5px;
+  margin-left: 3px;
+}
+
+.up{
+  color: green;
+}
+
+.down{
+  color: red;
 }
